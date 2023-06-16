@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SOURCE_FILE="your_source_file.c"
+
+# Display the contents of the source file
+cat $SOURCE_FILE

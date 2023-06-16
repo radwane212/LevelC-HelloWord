@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SOURCE_FILE="your_file.c"
+OUTPUT_FILE="executable"
+
+# Compile the source file
+gcc $SOURCE_FILE -o $OUTPUT_FILE
+
+# Run the executable
+./$OUTPUT_FILE

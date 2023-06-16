@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SOURCE_FILE="your_file.c"
+OUTPUT_FILE="assembly_output.s"
+
+# Generate the assembly code
+gcc -S $SOURCE_FILE -o $OUTPUT_FILE
+
+# Display the assembly code
+cat $OUTPUT_FILE
