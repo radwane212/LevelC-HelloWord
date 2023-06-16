@@ -1,0 +1,24 @@
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
+
+/**
+ * main - Prints the alphabet in uppercase.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char alphabet[26];
+	int i;
+
+	for (i = 0; i < 26; i++)
+	{
+		alphabet[i] = 'A' + i; // Generate the alphabet in uppercase
+	}
+
+	write(1, alphabet, 26); // Print the alphabet using the write() system call
+	write(1, "\n", 1); // Print a new line
+
+	return 0;
+}

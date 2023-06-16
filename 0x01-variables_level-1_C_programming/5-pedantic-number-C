@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/**
+ * main - Prints a custom message.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	printf("Hello, world!");  // Change this line to print your desired message
+	putchar('\n');
+	return 0;
+}
