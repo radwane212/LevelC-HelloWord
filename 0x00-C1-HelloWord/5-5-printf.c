@@ -7,4 +7,4 @@ OUTPUT_FILE="executable"
 gcc $SOURCE_FILE -o $OUTPUT_FILE
 
 # Run the executable
-./$OUTPUT_FILE
+/./$OUTPUT_FILE
