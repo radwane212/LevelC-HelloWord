@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * _islower - Checks for lowercase character
+ * @c: The character to be checked
+ *
+ * Return: 1 for lowercase character or 0 for anything else
+ */
+int _islower(int c)
+{
+    // Add your new code here
+    // For example, let's check if the character is a vowel
+    if (c >= 97 && c <= 122)
+    {
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+            return (2); // Return 2 for vowel
+        else
+            return (1); // Return 1 for lowercase letter
+    }
+    else
+    {
+        return (0); // Return 0 for anything else
+    }
+}
